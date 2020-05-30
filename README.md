@@ -1,2 +1,2 @@
-# kivy_object_detection_camera_app
+# kivy object detection camera app
 An implementation of a object detection for mobile
