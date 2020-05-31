@@ -37,7 +37,6 @@ class CameraCV(XCamera):
 
 class CamApp(App):
     def build(self):
-
         model_dir = Path("RFB-320")
         Logger.info(f"Model: Model directory path: {model_dir.__str__()}")
         self.model = cv2.dnn.readNetFromCaffe(Path(model_dir, "RFB-320.prototxt").__str__(),
