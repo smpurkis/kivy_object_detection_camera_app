@@ -7,7 +7,7 @@ from kivy.clock import Clock
 from kivy.core.window import Window
 # from kivy.core.camera import camera_android
 from kivy.logger import Logger
-# from kivy.uix.button import Button
+# from kivy.uix.button impordt Button
 from kivy.uix.floatlayout import FloatLayout
 from kivy.uix.image import Image
 from kivy.utils import platform
@@ -46,7 +46,7 @@ class CamApp(App):
         overlap_path = Path("Thug-Life-Glasses-PNG.png")
         self.overlap_image = cv2.imread(overlap_path.__str__(), cv2.IMREAD_UNCHANGED)
         self.overlap_image = cv2.resize(self.overlap_image, (320, 240))
-        self.thug_life = False
+        self.thug_life = True
 
         self.image_mean = np.array([127, 127, 127])
         self.image_std = 128.0

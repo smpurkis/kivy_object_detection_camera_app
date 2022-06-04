@@ -1,0 +1,5 @@
+Kivy==2.1.0; python_version == "3.7"
+Kivy-Garden==0.1.4
+kivymd==0.104.2
+xcamera==2020.613
+opencv-python==4.5.5.64

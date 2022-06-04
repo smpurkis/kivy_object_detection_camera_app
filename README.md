@@ -1,5 +1,5 @@
 # kivy object detection camera app
-An example of object detection for mobile in Python. Specifically using face detection. 
+An example of object detection for mobile using Python. Specific example is with face detection. 
 
 Aims:
 - Show that object detection for mobile is possible using Python
